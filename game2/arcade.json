@@ -1,0 +1,33 @@
+{
+	"name": "jogo",
+	"version": "1.0.0.0",
+	"description": "",
+	"id": "",
+	"unique-id": "x792ihn08n2",
+	"viewport-width": 854,
+	"viewport-height": 480,
+	"author": "",
+	"email": "",
+	"website": "",
+	"orientations": "landscape",
+	"c2version": "244",
+	"c3version": "r379",
+	"ife": true,
+	"used-plugins": [
+		"Sprite",
+		"TiledBg",
+		"Mouse",
+		"Text",
+		"Keyboard",
+		"Audio",
+		"Button"
+	],
+	"used-behaviors": [
+		"solid",
+		"Pin",
+		"Platform",
+		"scrollto",
+		"Anchor",
+		"Flash"
+	]
+}
