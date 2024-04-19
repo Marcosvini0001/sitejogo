@@ -48,7 +48,7 @@ footer p{
 
 .grid, .redes{
     display: grid;
-    background-color: rgb(10, 0, 20);
+    background-color: var(--preto);
     padding: 250px;
     border: 5px solid var(--verdeescuro);
     grid-template-columns: 33.333% 33.333% 33.333%;
@@ -147,6 +147,11 @@ main img{
     width: 20%;
 }
 
+.foto1{
+    padding-bottom: 1px;
+    background-color: #000000;
+}
+
 .redes p{
     width: 100%;
     height: 100%;
@@ -182,17 +187,22 @@ main img{
 }
 
 .suporte{
-    background-color: rgb(7, 0, 14);
+    background-color: #00bf63;
     display: flex;
     gap: 5px;
     padding: 50px;
     align-items: center;
     justify-content: center;
-    color: var(--branco);
+    color: var(--preto);
 }
 
 .foto2{
     display: none;
+}
+
+.redesociais{
+    padding-bottom: 10px;
+    background-color: #000000;
 }
 
 @media (width < 815px) {
